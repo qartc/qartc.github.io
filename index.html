@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>QART CONSULTANTS: Pay Less For A More Modern Solution</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="logo">
+          <span class="icon fa-handshake"></span>
+        </div>
+        <div class="content">
+          <div class="inner">
+            <h1>QART Consultants</h1>
+            <p>Pay Less For A More Modern Solution</p>
+            <p><b>(651) 409-3172‬</b></p>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#intro">Are You A Company?</a></li>
+            <li><a href="#work">Are You An Engineer?</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!--<li><a href="#elements">Elements</a></li>-->
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Main -->
+      <div id="main">
+        <article id="intro">
+          <h2 class="major">Are You A Company?</h2>
+          <h3>Why Should QART Build Your Solution?</h3>
+          <p>
+            QART (pronounced Cart), specializes in matching early-career
+            software engineers with non-technical organizations in need of large
+            technical makeovers. By focusing on this niche area of the market;
+            QART has perfected the art of hiring <b>COST-EFFECTIVE</b> Software
+            Engineers! This allows us to provide <b>YOU</b> with software
+            solutions that are <b>WELL-BELOW</b> market rates!
+          </p>
+
+          <p>
+            So why pay extra when QART can solve your software problems at a
+            <b>HUGE</b> discount! Our Software Engineers specialize in modern
+            Enterprise level technologies such as Java, Angular, Spring Boot,
+            JavaFX, MySQL, MS SQL Server, C# and more!
+          </p>
+
+          <p>
+            <a href="#contact">Contact us today</a> to tell us about your
+            software problems! We get to work <b>STRAIGHT AWAY</b> and can give
+            you an immediate estimate! Call us at: <b>(651) 409-3172‬.</b>
+          </p>
+        </article>
+
+        <article id="work">
+          <h2 class="major">Are You An Engineer?</h2>
+          <h3>Why Should You Join QART?</h3>
+
+          <p>
+            As a Software Engineer at QART (pronounced Cart), you'll
+            <b>LEAD</b> architectual designs and <b>LIASON</b> with key
+            stakeholders! You'll grow at a rate you won't find in any other
+            entry level Software Job; as you build your hard and soft skills!
+            Because of the multi-dimensional tasks entrusted to you; we only
+            hire the <b>SMARTEST, TALENTED & MOTIVATED</b> Software Engineers!
+            That means that if you get in, you'll be surrounded by only the
+            best!
+          </p>
+
+          <p>
+            If <b>RAPID GROWTH</b> is a personal goal of yours; you won't find a
+            better professional opportunity! We'll let you have the freedom to
+            play on all levels of the stack, and give you real-life experience
+            with managing stakeholder relations! If you have an entrepreneurial
+            spirit; you can't pass this option up!
+          </p>
+
+          <p>
+            If you are currently enrolled in a Undergraduate Computer Science
+            (or related STEM Major) program; we would love if you
+            <a href="#contact">apply today</a> or call us at:
+            <b>(651) 409-3172‬.</b> Unfortunately, we will NOT be accepting
+            Coding Boot Camp cohorts at the moment.
+          </p>
+        </article>
+
+        <article id="contact">
+          <h2 class="major">Contact <b>(651) 409-3172‬</b></h2>
+
+          <div class="fields">
+            <div class="field half">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" />
+            </div>
+
+            <div class="py-3 field half">
+              <label for="email">Email</label>
+              <input type="text" name="email" id="email" />
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" rows="4"></textarea>
+            </div>
+          </div>
+          <ul class="actions">
+            <li>
+              <input type="submit" value="Send" onclick="sendEmail()" />
+            </li>
+          </ul>
+
+          <div
+            id="spinnerDiv"
+            class="spinner-border text-success"
+            role="status"
+          >
+            <span class="sr-only">Loading...</span>
+          </div>
+
+          <div id="emailMsg">
+            <span>
+              <p>We received your message!</p>
+            </span>
+          </div>
+
+          <div id="errorMsg">
+            <span>
+              <p>Please enter a valid email.</p>
+            </span>
+          </div>
+
+          <div id="errorMsg2">
+            <span>
+              <p>Please enter both Name / Message content.</p>
+            </span>
+          </div>
+        </article>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <p class="copyright">
+          &copy; QART Consultants 2019
+        </p>
+      </footer>
+    </div>
+
+    <!-- BG -->
+    <div id="bg"></div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
